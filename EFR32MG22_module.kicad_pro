@@ -61,7 +61,9 @@
       ],
       "drc_exclusions": [
         "clearance|144250000|129550000|452c7035-eead-48c5-bc57-77ea512e4e06|e18a0960-420e-4593-80c9-8999d2a78c4d",
-        "clearance|146150000|129550000|687f6c8c-d2f2-4fe5-9d0d-8278dab9dbed|e18a0960-420e-4593-80c9-8999d2a78c4d"
+        "clearance|146150000|129550000|687f6c8c-d2f2-4fe5-9d0d-8278dab9dbed|e18a0960-420e-4593-80c9-8999d2a78c4d",
+        "footprint_type_mismatch|144820000|89550000|2195cd3b-5a2a-468f-8db5-d40e66bcbf13|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|157227500|106480000|cf838d35-534f-49c2-9342-b42c93645658|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
         "filename": "board_design_settings.json",
@@ -517,7 +519,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "outputs/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
