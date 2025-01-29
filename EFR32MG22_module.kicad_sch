@@ -9890,7 +9890,7 @@
 				)
 			)
 		)
-		(property "Value" "82"
+		(property "Value" "220"
 			(at 222.25 153.67 90)
 			(effects
 				(font
@@ -11506,74 +11506,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 231.14 144.78 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aba1a6fc-a9cb-4152-af8a-3d6c9e91051d")
-		(property "Reference" "D5"
-			(at 232.7275 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 232.7275 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 231.14 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 231.14 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 231.14 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a9006506-0839-4f13-b47e-51e445998df4")
-		)
-		(pin "1"
-			(uuid "93814a37-2d48-4498-b798-70e6fd7ef873")
-		)
-		(instances
-			(project "EFR32MG22_module"
-				(path "/2b6fdb38-3ff0-474e-9918-afa124d18892"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L")
 		(at 170.18 81.28 90)
 		(unit 1)
@@ -12201,6 +12133,73 @@
 			(project ""
 				(path "/2b6fdb38-3ff0-474e-9918-afa124d18892"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 231.14 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "df9c61c9-62dc-4a60-a35c-45fa6edfa175")
+		(property "Reference" "D5"
+			(at 231.14 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 231.14 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 231.14 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 231.14 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 231.14 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e5157e7c-63c7-4fcd-bf83-557c73933b8f")
+		)
+		(pin "1"
+			(uuid "59d8ca43-1929-46cf-9f97-36fd7b6ccd70")
+		)
+		(instances
+			(project "EFR32MG22_module"
+				(path "/2b6fdb38-3ff0-474e-9918-afa124d18892"
+					(reference "D5")
 					(unit 1)
 				)
 			)
